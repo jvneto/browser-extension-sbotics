@@ -1,0 +1,13 @@
+{
+    "name": "sBotics Functions",
+    "description": "List of functions available for use in the sBotics simulator!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "main.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
