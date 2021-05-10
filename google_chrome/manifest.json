@@ -1,6 +1,6 @@
 {
-    "name": "sBotics Functions",
-    "description": "List of functions available for use in the sBotics simulator!",
+    "name": "sBotics",
+    "description": "sBotics is a simulation platform designed to emulate various world-famous robotics competitions, where kits are commonly used to perform the required actions. This platform offers an alternative for those seeking to test and improve their skills in the field as well as being able to test programs without the risk of damaging physical parts.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
@@ -8,6 +8,6 @@
     },
     "permissions": ["storage", "activeTab", "scripting"],
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "routes/index.html"
     }
 }
